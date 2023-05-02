@@ -1,2 +1,4 @@
 const buttonToClick = document.querySelector(".button");
-buttonToClick.addEventListener("",console.log("I clicked the button"))
+buttonToClick.addEventListener("click", () => console.log("clicked")); //anonymous function - primarily, but not always.
+
+
